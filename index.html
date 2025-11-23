@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NordGlanz Reinigung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5faff;
+            color: #003366;
+        }
+        header {
+            background-color: #008CBA;
+            color: white;
+            text-align: center;
+            padding: 25px 10px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-left: 4px solid #008CBA;
+            padding-left: 10px;
+        }
+        ul {
+            line-height: 1.8em;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        input, select, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0077A5;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: #e8f6ff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NordGlanz Reinigung</h1>
+    <p>Professionelle Reinigung & kleine Reparaturen in Lübeck und Umgebung</p>
+</header>
+
+<div class="container">
+    <h2>Unsere Dienstleistungen</h2>
+    <ul>
+        <li>🏠 Grundreinigung (Wohnungen & Häuser)</li>
+        <li>🧽 Unterhaltsreinigung</li>
+        <li>🧼 Fensterreinigung</li>
+        <li>🏢 Büroreinigung</li>
+        <li>🚚 Reinigung nach Umzug</li>
+        <li>🧯 Baureinigung</li>
+        <li>🔧 <b>Kleine Reparaturen (Schrauben, Montagen, kleine Fixes)</b></li>
+    </ul>
+
+    <h2>Kontakt & Anfrage</h2>
+    <form>
+        <input type="text" placeholder="Ihr Name" required>
+        <input type="text" placeholder="Adresse / Stadtteil" required>
+        <input type="tel" placeholder="Telefonnummer" required>
+
+        <select required>
+            <option value="">Dienstleistung wählen</option>
+            <option>Grundreinigung</option>
+            <option>Unterhaltsreinigung</option>
+            <option>Fensterreinigung</option>
+            <option>Büroreinigung</option>
+            <option>Reinigung nach Umzug</option>
+            <option>Baureinigung</option>
+            <option>Kleine Reparaturen</option>
+        </select>
+
+        <textarea rows="5" placeholder="Ihre Nachricht"></textarea>
+        <button type="submit">Anfrage senden</button>
+    </form>
+</div>
+
+<footer>
+    © 2025 NordGlanz Reinigung — Lübeck & Umgebung  
+</footer>
+
+</body>
+</html>
